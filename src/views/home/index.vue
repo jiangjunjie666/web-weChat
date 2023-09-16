@@ -2,76 +2,92 @@
   <!-- 微信界面 -->
   <div class="box">
     <div class="chat">
-      <div class="left">
-        <ul>
-          <li>
-            <img src="../../assets/vue.svg" alt="" />
-          </li>
-          <li>
-            <svg t="1694787919631" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7648" width="22" height="22">
-              <path
-                d="M512.362924 896c-57.088 0-111.829333-8.533333-163.114667-23.637333L0.362924 1023.274667l122.410666-285.013334C46.61359 660.053333 0.362924 558.805333 0.362924 448 0.362924 200.576 229.610924 0 512.362924 0s512 200.576 512 448S795.114924 896 512.362924 896z"
-                fill="#1afa29"
-                p-id="7649"
-              ></path>
-            </svg>
-          </li>
-          <li>
-            <svg t="1694787982201" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8717" width="22" height="22">
-              <path
-                d="M488.6 522.2c-126.9 0-230.2-100.5-230.2-224s103.3-224 230.2-224 230.2 100.5 230.2 224-103.3 224-230.2 224z m0-358.4c-77.5 0-140.6 60.3-140.6 134.4s63.1 134.4 140.6 134.4 140.6-60.3 140.6-134.4-63.1-134.4-140.6-134.4zM645.4 723.8h268.8v89.6H645.4zM645.4 858.2h268.8v89.6H645.4z"
-                fill="#8a8a8a"
-                p-id="8718"
-              ></path>
-              <path d="M197.4 947.8h-89.6V634.2c0-37.1 30.1-67.2 67.2-67.2h627.2c37.1 0 67.2 30.1 67.2 67.2V679h-89.6v-22.4H197.4v291.2z" fill="#8a8a8a" p-id="8719"></path>
-            </svg>
-          </li>
-          <li>
-            <svg t="1694788050890" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10975" width="22" height="22">
-              <path
-                d="M512 58.395l-391.469 227.425v453.605l391.469 226.182 391.469-227.425v-452.364l-391.469-227.425zM847.545 295.761l-335.545 195.113-335.545-195.113 335.545-193.871 335.545 193.871zM157.814 328.073l334.302 193.871-1.243 387.74-333.058-192.627v-388.982zM528.156 913.41l1.243-388.982 336.787-196.355v388.982l-338.030 196.355z"
-                p-id="10976"
-                fill="#8a8a8a"
-              ></path>
-            </svg>
-          </li>
-          <li>
-            <svg t="1694788075166" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12090" width="22" height="22">
-              <path
-                d="M855.04 385.024q19.456 2.048 38.912 10.24t33.792 23.04 21.504 37.376 2.048 54.272q-2.048 8.192-8.192 40.448t-14.336 74.24-18.432 86.528-19.456 76.288q-5.12 18.432-14.848 37.888t-25.088 35.328-36.864 26.112-51.2 10.24l-567.296 0q-21.504 0-44.544-9.216t-42.496-26.112-31.744-40.96-12.288-53.76l0-439.296q0-62.464 33.792-97.792t95.232-35.328l503.808 0q22.528 0 46.592 8.704t43.52 24.064 31.744 35.84 12.288 44.032l0 11.264-53.248 0q-40.96 0-95.744-0.512t-116.736-0.512-115.712-0.512-92.672-0.512l-47.104 0q-26.624 0-41.472 16.896t-23.04 44.544q-8.192 29.696-18.432 62.976t-18.432 61.952q-10.24 33.792-20.48 65.536-2.048 8.192-2.048 13.312 0 17.408 11.776 29.184t29.184 11.776q31.744 0 43.008-39.936l54.272-198.656q133.12 1.024 243.712 1.024l286.72 0z"
-                p-id="12091"
-                fill="#8a8a8a"
-              ></path>
-            </svg>
-          </li>
-          <li>
-            <svg t="1694788101514" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13395" width="22" height="22">
-              <path
-                d="M679.170882 398.98197 679.170882 126.497019c0 0-133.338844-71.481008-288.989857-16.365736L679.170882 398.98197zM704.414823 559.284933 704.414823 137.748271c0 0 157.630087 71.433936 202.051809 244.963131L704.414823 559.284933zM619.614461 681.811524l290.99042-273.64845c0 0 51.487651 83.708494-25.293059 273.64845L619.614461 681.811524zM471.029378 716.50672l393.014048 0c0 0-47.444569 128.594797-217.255069 181.688016L471.029378 716.50672zM342.736457 629.695562l0 256.17959c0 0 102.071723 65.36573 276.878005 21.478174L342.736457 629.695562zM115.370099 642.946354 314.44511 464.326211l0 406.206512C314.44511 870.5317 194.172863 828.782853 115.370099 642.946354zM110.3252 614.376669c0 0-45.538149-146.935514 18.154475-274.554076l273.811156 0L110.3252 614.376669zM145.682475 311.183322c0 0 57.602929-130.594337 214.20971-191.869912l186.893574 191.869912L145.682475 311.183322z"
-                fill="#8a8a8a"
-                p-id="13396"
-              ></path>
-            </svg>
-          </li>
-          <li>
-            <svg t="1694788154499" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="14481" width="22" height="25">
-              <path d="M512 128c-211.7 0-384 172.3-384 384s172.3 384 384 384 384-172.3 384-384-172.3-384-384-384z m0 717.4c-183.8 0-333.4-149.6-333.4-333.4S328.2 178.6 512 178.6 845.4 328.2 845.4 512 695.8 845.4 512 845.4z" p-id="14482" fill="#8a8a8a"></path>
-              <path
-                d="M702.9 334.9c-24.9-14.2-54.6-17.1-81.6-8.1-26.4 8.8-48 28.3-59.5 53.6L418 618.9l-1.6 3c-5.6 12.9-16.5 22.9-29.8 27.4-13.5 4.5-27.9 3.1-40.5-4.1-19.8-11.3-29.4-35.4-22.7-57.2 7.1-23 28.3-26.5 75.1-29l3.5-0.2c14-0.8 24.7-12.7 23.9-26.6-0.8-14-12.7-24.6-26.6-23.9l-3.4 0.2c-45.7 2.4-102.6 5.5-120.8 64.7-13.6 44.3 5.7 93.1 46 116 15.4 8.8 32.7 13.3 50 13.3 10.7 0 21.3-1.7 31.6-5.1 26.4-8.8 48-28.3 59.5-53.6L606 405.1l1.6-3c5.6-12.9 16.5-22.9 29.8-27.4 13.5-4.5 27.9-3.1 40.5 4.1 19.8 11.3 29.4 35.4 22.7 57.2-7.1 23.2-28.5 26.6-75.7 29.1l-2.8 0.1c-14 0.7-24.7 12.6-24 26.6 0.7 14 12.6 24.8 26.6 24l2.8-0.1c46-2.4 103.2-5.3 121.5-64.7 13.5-44.4-5.8-93.2-46.1-116.1z"
-                p-id="14483"
-                fill="#8a8a8a"
-              ></path>
-            </svg>
-          </li>
-        </ul>
+      <Left></Left>
+      <!-- /// -->
+      <div class="center">
+        <div class="search">
+          <el-input style="width: 220px; margin: 35px 0 0 20px; background-color: pink" v-model="search" class="w-50 m-2" placeholder="搜索" :prefix-icon="Search" />
+          <el-button :icon="Plus" style="width: 35px; margin: 35px 0 0 10px" @click="getPlus"></el-button>
+        </div>
+        <!--好友列表 -->
+        <el-scrollbar height="510px">
+          <Firend v-for="i in 20"></Firend>
+        </el-scrollbar>
+
+        <!-- 好友列表 -->
       </div>
-      <div class="center"></div>
-      <div class="right"></div>
+      <div class="right">
+        <div class="head">
+          <p>你好</p>
+        </div>
+        <div class="liao">
+          <el-scrollbar height="350px">
+            <div v-for="(component, index) in filteredComponents" :key="index">
+              <component :is="component"></component>
+            </div>
+          </el-scrollbar>
+        </div>
+        <div class="text">
+          <div class="icon">
+            <ul class="icon_left">
+              <li>
+                <img src="@/assets/笑脸 (2).png" alt="" />
+              </li>
+              <li>
+                <img src="@/assets/文件夹.png" alt="" />
+              </li>
+              <li><img src="@/assets/剪刀.png" alt="" /></li>
+              <li><img src="@/assets/信息.png" alt="" /></li>
+            </ul>
+            <ul class="icon_right">
+              <li><img src="@/assets/电话.png" alt="" /></li>
+              <li><img src="@/assets/摄像头.png" alt="" /></li>
+            </ul>
+          </div>
+          <div class="cen">
+            <input type="text" />
+          </div>
+          <el-button type="primary" class="btn">发送</el-button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
+<script setup>
+import { ref, computed } from 'vue'
+import Firend from '@/components/firend/index.vue'
+import ChatFir from '@/components/chat/firend.vue'
+import ChatMy from '@/components/chat/my.vue'
+import { Search, Plus } from '@element-plus/icons-vue'
+import Left from '@/components/home/left.vue'
+let search = ref('')
+//从服务器那边拿到聊天的数据
+let chatMessages = ref([
+  { id: 1, type: 'chatFir' },
+  { id: 2, type: 'chatMy' },
+  { id: 3, type: 'chatMy' },
+  { id: 1, type: 'chatFir' },
+  { id: 1, type: 'chatFir' },
+  { id: 1, type: 'chatFir' },
+  { id: 1, type: 'chatFir' }
+])
+//计算出渲染的数据
+const filteredComponents = computed(() => {
+  return chatMessages.value.flatMap((message) => {
+    if (message.type === 'chatFir') {
+      return [ChatFir]
+    } else if (message.type === 'chatMy') {
+      return [ChatMy]
+    } else {
+      return []
+    }
+  })
+})
 
-<script setup></script>
+const getPlus = () => {
+  console.log('加号')
+}
+</script>
 
 <style lang="scss" scoped>
 .box {
@@ -88,27 +104,88 @@
     border-radius: 20px;
     display: flex;
     // padding: 1px;
-    .left {
-      width: 80px;
-      height: 100%;
-      background-color: #2e2e2e;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      li:nth-child(1) {
-        margin: 40px 0 0 20px;
-        width: 50px;
-        height: 50px;
-      }
-      li {
-        margin: 25px 0 0 25px;
-      }
-    }
+
     .center {
       width: 300px;
       height: 100%;
       background-color: pink;
+      .search {
+        width: 100%;
+        height: 90px;
+        background-color: #f7f7f7;
+      }
     }
     .right {
+      width: 620px;
+      height: 100%;
+
+      .head {
+        height: 90px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        background-color: #fffefe;
+        border-bottom: 1px solid rgb(236, 232, 232);
+        p {
+          padding: 38px 0 0 20px;
+          font-size: 20px;
+        }
+      }
+      .liao {
+        width: 100%;
+        height: 350px;
+        border-bottom: 1px solid rgb(230, 228, 228);
+        border-radius: 0%;
+        background-color: #f5f5f5;
+      }
+      .text {
+        .icon {
+          width: 100%;
+          height: 30px;
+          // background-color: #bdceeb;
+          display: flex;
+          justify-content: space-between;
+          .icon_left {
+            display: flex;
+            li {
+              padding-left: 20px;
+              padding-top: 5px;
+            }
+          }
+          .icon_right {
+            display: flex;
+            li {
+              padding-right: 20px;
+              padding-top: 5px;
+            }
+          }
+        }
+        .cen {
+          width: 100%;
+          height: 80px;
+          // background-color: #2e2e2e;
+          input {
+            width: 90%;
+            height: 90%;
+            margin: 2px 0 0 35px;
+            padding-left: 10px;
+            // 去除输入kuan的样式
+            outline: none;
+            border: none;
+            color: #222121;
+            font-size: 20px;
+            // word-wrap: break-word; /* CSS2 */
+            overflow-wrap: break-word; /* CSS3 */
+          }
+        }
+        .btn {
+          padding: 0 30px 0 30px;
+          margin: 0px 0px 0 500px;
+          background-color: #d2d2d2;
+          border: #d2d2d2;
+          color: #06ae56;
+          font-size: 15px;
+        }
+      }
     }
   }
 }
