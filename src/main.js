@@ -6,10 +6,13 @@ import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 //引入router
 import router from '@/router/index.js'
+//引入store
+import store from '@/store/index.js'
 import App from './App.vue'
 const app = createApp(App)
 app.use(ElementPlus, {
   locale: zhCn
 })
+app.use(store)
 app.use(router)
 app.mount('#app')

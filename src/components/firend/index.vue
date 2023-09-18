@@ -1,23 +1,46 @@
 <template>
-  <div class="firend">
+  <div class="firend" :class="{ active: modelValue == index }" @click="handlerClick(index)">
     <div class="fir_img">
-      <img src="@/assets/avatar.jpg" />
+      <img :src="`http://127.0.0.1:3000/images/${info.avatar}`" />
       <div class="fir_sum">1</div>
     </div>
     <div class="fir_name">
-      <h1>你好</h1>
+      <h1>{{ info.username }}</h1>
       <h2>好的</h2>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+//接收父组件的数据
+import { defineProps, defineEmits } from 'vue'
+const { info } = defineProps({
+  info: {
+    type: Object,
+    default: () => ({})
+  },
+  modelValue: {
+    type: Number,
+    default: 0
+  },
+  index: {
+    type: Number,
+    default: 0
+  }
+})
+//接收emits
+const emits = defineEmits(['update:activeIndex'])
+//点击事件
+const handlerClick = (index) => {
+  emits('update:activeIndex', [index, info.id])
+}
+</script>
 
 <style lang="scss" scoped>
 .firend {
   width: 100%;
   height: 80px;
-  background-color: #e5e4e4;
+  background-color: #fff;
   display: flex;
   .fir_img {
     position: relative;
@@ -52,5 +75,8 @@
       color: #868181;
     }
   }
+}
+.active {
+  background-color: #d4d0d0;
 }
 </style>

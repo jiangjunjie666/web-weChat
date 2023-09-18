@@ -2,7 +2,11 @@
   <div class="left">
     <ul>
       <li>
-        <img style="width: 50px" src="@/assets/avatar.jpg" alt="" />
+        <div class="setting">
+          <el-button type="primary" @click="opencard" style="margin: 10px 0 10px 6px">修改资料</el-button>
+          <el-button type="primary" @click="getPlus" style="margin: 0px 0 0px 6px">修改头像</el-button>
+        </div>
+        <img style="width: 50px" :src="`http://127.0.0.1:3000/images/${userStore.userinfo.avatar}`" alt="" />
       </li>
       <li>
         <svg t="1694787919631" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7648" width="22" height="22">
@@ -64,7 +68,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import useUserStore from '../../store/modules/user'
+let userStore = useUserStore()
+</script>
 
 <style lang="scss" scoped>
 .left {
@@ -73,13 +80,30 @@
   background-color: #2e2e2e;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  position: relative;
   li:nth-child(1) {
     margin: 40px 0 0 20px;
     width: 50px;
     height: 50px;
+    //添加hover事件
+    &:hover {
+      cursor: pointer;
+      .setting {
+        display: block;
+      }
+    }
   }
   li {
     margin: 25px 0 0 25px;
   }
+}
+.setting {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: #fff;
+  top: 10px;
+  right: 60px;
+  display: none;
 }
 </style>

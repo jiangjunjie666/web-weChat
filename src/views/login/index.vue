@@ -31,6 +31,8 @@ import { ref } from 'vue'
 import { reqLogin, reqRegister } from '@/api/user.js'
 import { ElMessage } from 'element-plus'
 import { useRouter } from 'vue-router'
+import useUserStore from '@/store/modules/user.js'
+let userStore = useUserStore()
 let $router = useRouter()
 let key = ref('login')
 let data = ref({
@@ -57,6 +59,8 @@ const login = async () => {
     } else {
       //登录成功将用户信息存储到本地
       localStorage.setItem('userinfo', JSON.stringify(res.data))
+      //获取用户好友信息
+      userStore.getFirends(JSON.stringify(res.data.user_firends))
       //跳转至主页
       $router.push('/home')
     }
